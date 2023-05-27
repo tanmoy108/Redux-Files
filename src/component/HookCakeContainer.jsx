@@ -1,7 +1,8 @@
+import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { CakeAction } from "../redux/cakes/CakeAction";
 
-const HookContainer = () => {
+const HookCakeContainer = () => {
   const numOfCake = useSelector((state) => state.cake.numOfCakes);
   const dispatch = useDispatch();
   return (
@@ -12,4 +13,4 @@ const HookContainer = () => {
   );
 };
 
-export default HookContainer;
+export default HookCakeContainer;
