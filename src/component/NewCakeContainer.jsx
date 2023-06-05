@@ -9,7 +9,7 @@ const NewCakeContainer = () => {
     <>
       <h2>New Cake Container {numOfCakes}</h2>
       <input
-        type="text"
+        type="number"
         value={number}
         onChange={(e) => setNumber(e.target.value)}
       />
